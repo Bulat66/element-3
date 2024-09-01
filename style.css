@@ -3,6 +3,7 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+	border: 1px dashed green;
 }
 :root{
 	--color-p: #8492af;
@@ -540,7 +541,7 @@ header{
 	background: var(--color-btn);
 }
 .type-i .line{
-	width: 224px;
+	width: 29%;
 	height: 2px;
 	background: #dadee7;
 }
@@ -605,6 +606,9 @@ footer ul:nth-child(2) li:nth-child(3){
 	.type-b p{
 		font-size: 2rem;
 		margin-bottom: 62px;
+	}
+	.type-f .container{
+		gap: 20px;
 	}
 	.type-f .container .f-child-second{
 		margin-top: 50px;
@@ -761,6 +765,7 @@ footer ul:nth-child(2) li:nth-child(3){
 		align-items: center;
 	}
 	.f-child{
+		min-width: auto;
 		flex-wrap: wrap;
 		justify-content: center;
 	}
